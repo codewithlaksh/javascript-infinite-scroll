@@ -13,7 +13,7 @@ const getPosts = async () => {
                 ${post.body}
             </span>
         </div>`;
-    })
+    }).join("");
     postsDiv.insertAdjacentHTML('beforeend', posts);
 }
 getPosts();
